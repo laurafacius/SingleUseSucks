@@ -30,6 +30,7 @@ module.exports = {
     extend: {
       colors: {
         high: "#FF7555",
+        black1: "#1C1E23",
       },
       fontFamily: {
         Rubik: ["Rubik"],
