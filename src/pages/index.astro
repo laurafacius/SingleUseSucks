@@ -1,9 +1,23 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
+import Formular from "../components/Formular.astro";
+import Merchandise from "../components/Merchandise.astro"
+import Arbejder from "../components/Arbejder.astro";
+import Hval from "../components/Hval.astro";
 ---
 <MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-	</article>
+
+<section class="bg-black">
+<Formular></Formular>
+</section>
+
+<section class="bg-black">
+	<Arbejder></Arbejder>
+</section>
+
+<section class="bg-black">
+	<Merchandise></Merchandise>
+</section>
+
 </MainLayout>
