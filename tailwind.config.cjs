@@ -1,7 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("@tailwindcss/aspect-ratio"), require("@tailwindcss/container-queries")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/container-queries"),
+  ],
   theme: {
     colors: {
       transparent: "transparent",
@@ -12,7 +17,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"],
+        Rubik: ["Rubik", "sans-serif"],
       },
     },
   },
