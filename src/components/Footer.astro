@@ -1,6 +1,30 @@
 ---
+import Button from '../components/Button.astro';
 ---
-<div>
-<p>Footer</p>
+<article class="bg-orange-500">
+<section class="pl-20 pb-16 pt-10 lg:grid grid-cols-2">
+<img class="w-24" src="/public/logo_footer.svg" alt="logo">
+<p class="text-white text-sm">Mail: info@plasticchange.org</p>
+<p class="text-white text-sm pb-4"> Tlf: +45 42 66 72 46 (Man-Fre kl. 10-15)</p>
+<div class="grid grid-cols-4 gap-1 w-36">
+    <img src="/public/instagram.svg" alt="instagram logo">
+    <img src="/public/facebook.svg" alt="facebook logo">
+    <img src="/public/linkedin.svg" alt="linkedin logo">
+    <img src="/public/youtube.svg" alt="youtube logo">
 </div>
+</section>
+
+<section class="pl-20 pr-20 pb-16">
+    <h3 class="text-white text-xl font-semibold text-center">Tilmeld dig vores Nyhedsbrev!</h3>
+    <p class="text-white text-sm text-center pt-2">Følg med i vores arbejde mod plastikforurening, og hold dig opdateret med de seneste nyheder</p>
+   <div class="grid pl-4 pr-4 pt-3 pb-3">
+            <input type="email" id="email" name="email" value="" class="rounded-md" placeholder="dinemail@gmail.dk" >
+        </div>
+         <div class="flex justify-center">
+            <label for="submit"></label>
+			<Button variant="primary" size="small" type="submit" id="submit" name="submit">Tilmeld</Button>
+        </div>
+
+</section>
+</article>
   
