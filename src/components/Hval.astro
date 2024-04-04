@@ -2,8 +2,8 @@
 
 ---
 
-<div class="hval">
-   <img src="Hval.svg" alt=hval">
+<div class="hval pt-20 pb-20  md:max-w-[750px]">
+   <img class="w-full" src="hvaltekst.svg" alt=hval" >
 </div>
 
 <script>
@@ -27,9 +27,9 @@ elementmedanimation1.classList.add("slide-in-left");
 
 
 <style>
-.slide-left {
-	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.slide-in-left {
+	-webkit-animation: slide-left 15s linear infinite both;
+	        animation: slide-left 15s linear infinite both;
 }
 
 
@@ -47,22 +47,24 @@ elementmedanimation1.classList.add("slide-in-left");
  */
 @-webkit-keyframes slide-left {
   0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
   }
+
   100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
 }
 @keyframes slide-left {
   0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(100vw);
+            transform: translateX(100vw);
   }
+
   100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
   }
 }
 
