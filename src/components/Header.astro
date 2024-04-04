@@ -1,3 +1,7 @@
+---
+import Button from '../components/Button.astro';
+---
+
 <div x-data="{ showmenu: false }" class="fixed lg:static w-full mb-5 px-10 bg-back z-[150]">
     <div id="navbar" class="flex flex-row justify-between">
         <div id="logo" class="md:w-52 mt-[-10px]">
@@ -11,8 +15,8 @@
                 <li class="hover:text-orange"><a href="#link3">Hvem er Plastic Change</a></li>
                 <li class="hover:text-orange"><a href="#link4">Shop</a></li>
                 <!-- Button as link -->
-                <li>
-                    <a href="#button-link" class="bg-black border border-high text-orange px-4 py-2 rounded-md hover:text-white">Giv din støtte</a>
+                <li class="mt-[-8px]">
+           <a href=""><Button variant="primary" size="medium">Støt nu</Button></a>  
                 </li>
             </ul>
         </nav>
