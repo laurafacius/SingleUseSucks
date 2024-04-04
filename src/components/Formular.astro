@@ -2,7 +2,7 @@
 import Button from '../components/Button.astro';
 ---
 
-<section class="px-10 md:px-0">
+<section class="px-10 md:px-0 font-Rubik">
 
 <div class="max-w-md mx-auto pb-36">
   <form class="bg-orange shadow-md px-8 pt-6 max-w-xl">
@@ -23,7 +23,7 @@ import Button from '../components/Button.astro';
 
     <div class="mb-4">
       <div class="grid grid-cols-2">
-        <label class="block text-white font-rubik font-bold mb-2" for="belob">
+        <label class="block text-white font-bold mb-2" for="belob">
          Valgfrit beløb
         </label>
         <input
@@ -43,7 +43,7 @@ import Button from '../components/Button.astro';
           id="manedligt"
           name="manedligt"
         />
-        <label class="ml-2 text-white font-bold font-poppins focus:ring"  for="manedligt">
+        <label class="ml-2 text-white font-bold focus:ring"  for="manedligt">
          Månedligt
         </label>
       </div>
@@ -57,13 +57,13 @@ import Button from '../components/Button.astro';
           id="engangs"
           name="engangs"
         />
-        <label class="ml-2 text-white font-bold font-poppins"  for="engangs">
+        <label class="ml-2 text-white font-bold"  for="engangs">
          En gangs beløb
         </label>
       </div>
     </div>
     </div>
-    <div class="flex justify-center p-5"> 
+    <div class="flex justify-center p-5 pb-10"> 
       <a href=""><Button variant="secondary" size="large">Støt nu</Button></a>
     </div>
      
